@@ -21,7 +21,7 @@ https://github.com/FusionDraw9257/YfarchBIMProToolsForRevit2019/releases
 Recommended release package:
 
 ```text
-YfarchBIMProTools2019_20260527V1.rar
+YfarchBIMProToolsForRevit2019_20260527V1.zip
 ```
 
 ## 支援環境 Supported Environment
@@ -36,7 +36,7 @@ YfarchBIMProTools2019_20260527V1.rar
 
 1. 關閉 Autodesk Revit 2019。
 2. 到 Releases 頁面下載最新版安裝包。
-3. 如下載的是 `.rar` 檔，請先解壓縮。
+3. 如下載的是 `.zip` 檔，請先解壓縮。
 4. 執行安裝程式。
 5. 重新開啟 Autodesk Revit 2019。
 6. 在 Revit 功能列中使用 Yfarch BIM 工具。
@@ -45,7 +45,7 @@ English:
 
 1. Close Autodesk Revit 2019.
 2. Download the latest release package from the Releases page.
-3. Extract the `.rar` file if needed.
+3. Extract the `.zip` file if needed.
 4. Run the setup executable.
 5. Open Autodesk Revit 2019 again.
 6. Use the Yfarch BIM tools from the Revit ribbon.
@@ -157,4 +157,3 @@ If you find a problem, please open a GitHub Issue and include:
 - Tool name
 - Steps to reproduce
 - Error message or screenshot
-
