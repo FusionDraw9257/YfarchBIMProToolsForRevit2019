@@ -1,0 +1,14 @@
+# Local files
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Do not commit installer packages directly.
+# Upload installers to GitHub Releases instead.
+*.exe
+*.rar
+*.zip
+*.7z
+
