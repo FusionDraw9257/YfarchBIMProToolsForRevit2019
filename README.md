@@ -126,9 +126,9 @@ This toolset is designed for:
 
 ## 授權與啟用 License And Activation
 
-本軟體可能需要有效的試用或授權啟用。請依照安裝後顯示的授權資訊使用。
+本軟體安裝後可免費試用 7 天。試用期結束後，需要完成授權啟用才可繼續使用。您可在 Revit 內開啟「授權資訊」，查看試用狀態、機器碼、到期日，並依畫面指示申請或更新授權。
 
-This software may require a valid trial or license activation. Please follow the activation information shown after installation.
+After installation, this software includes a 7-day free trial. After the trial period expires, license activation is required to continue using the tools. Open "License Information" in Revit to check the trial status, machine code, expiration date, and instructions for purchasing or renewing a license.
 
 ## 更新方式 Updates
 
