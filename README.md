@@ -21,7 +21,7 @@ https://github.com/FusionDraw9257/YfarchBIMProToolsForRevit2019/releases
 Recommended release package:
 
 ```text
-YfarchBIMProToolsForRevit2019_20260527V1.zip
+YfarchBIMProToolsForRevit2019.zip
 ```
 
 ## 支援環境 Supported Environment
