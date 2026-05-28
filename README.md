@@ -1,10 +1,12 @@
-# Yfarch BIM Pro Tools 2019
+# Yfarch BIM Pro Tools for Revit 2019
 
-Yfarch BIM Pro Tools 2019 是一套專為 Autodesk Revit 2019 製作的 BIM 輔助工具集，目標是減少重複建模、整理、編號、接合與匯出工作，讓建築與結構模型製作流程更快、更一致。
+Yfarch BIM Pro Tools for Revit 2019 是一套專為 Autodesk Revit 2019 製作的 BIM 輔助工具集，目標是減少重複建模、整理、編號、接合與匯出工作，讓建築與結構模型製作流程更快、更一致。
 
-This repository provides public product information and release downloads. Source code, private keys, and internal build tools are not included here.
+Yfarch BIM Pro Tools for Revit 2019 is a BIM productivity toolset built for Autodesk Revit 2019. It helps reduce repetitive modeling, cleanup, numbering, joining, and export tasks in production workflows.
 
 本公開倉庫只提供產品介紹、安裝說明與安裝檔下載。原始碼、授權私鑰與內部打包工具不會放在此倉庫。
+
+This public repository provides product information, installation notes, and release downloads only. Source code, private keys, and internal build tools are not included here.
 
 ## 下載 Download
 
@@ -12,7 +14,7 @@ This repository provides public product information and release downloads. Sourc
 
 Download the latest installer from the GitHub Releases page:
 
-https://github.com/FusionDraw9257/YfarchBIMProTools2019/releases
+https://github.com/FusionDraw9257/YfarchBIMProToolsForRevit2019/releases
 
 目前建議下載檔案：
 
@@ -29,6 +31,8 @@ YfarchBIMProTools2019_20260527V1.rar
 - .NET Framework 4.7.2 或相容環境
 
 ## 安裝方式 Installation
+
+中文：
 
 1. 關閉 Autodesk Revit 2019。
 2. 到 Releases 頁面下載最新版安裝包。
@@ -50,21 +54,21 @@ English:
 
 ### 自動軸網 Auto Grids
 
-協助使用者快速建立或整理 Revit 軸網，減少手動建立軸線與檢查軸號的時間。適合在專案初期建立結構或建築定位基準時使用。
+協助快速建立或整理 Revit 軸網，減少手動建立軸線、檢查軸號與調整定位基準的時間。適合在專案初期建立建築或結構模型基準時使用。
 
-Helps users create or organize Revit grids more efficiently, reducing repetitive manual grid setup and checking work.
+Helps create or organize Revit grids efficiently, reducing manual grid creation, grid checking, and setup time during early modeling stages.
 
 ### 自動結構柱 Auto Structural Columns
 
-依據圖面或模型條件輔助產生結構柱，降低逐一放置柱構件的工作量。適合需要從 CAD/模型資訊轉換成 Revit 結構柱的流程。
+輔助從圖面或模型條件產生結構柱，降低逐一放置柱構件與比對柱型的工作量。適合需要將 CAD 或模型資訊轉換為 Revit 結構柱的流程。
 
-Assists with generating structural columns based on drawing or model conditions, reducing the effort of placing column elements one by one.
+Assists with generating structural columns from drawing or model conditions, reducing repetitive placement and type matching work.
 
 ### 自動結構梁 Auto Structural Beams
 
-協助產生結構梁，並支援梁與柱之間的距離、位置或端點關係檢查。適合結構建模、初步建置與模型整理階段。
+協助產生結構梁，並輔助檢查梁與柱之間的距離、位置與端點關係。適合結構建模、初步配置與模型整理階段。
 
-Assists with generating structural beams and checking beam-column relationships such as distance, placement, and endpoint conditions.
+Assists with structural beam generation and supports checks around beam-column distance, placement, and endpoint relationships.
 
 ### 自動結構板 Auto Structural Slabs
 
@@ -74,9 +78,9 @@ Helps create structural slabs and reduces repetitive work when defining slab bou
 
 ### 自動牆接合 Auto Wall Join
 
-協助處理牆體幾何接合，減少模型中牆交接位置的手動整理時間。適合牆量較多、平面需要大量清理的專案。
+協助處理牆體幾何接合，減少牆交接位置的手動整理時間。適合牆量較多、平面需要大量清理的 Revit 專案。
 
-Helps process wall geometry joins, reducing manual cleanup around wall intersections in Revit models.
+Helps process wall geometry joins and reduces manual cleanup around wall intersections.
 
 ### 自動樓板邊界接合 Auto Floor Boundary Join
 

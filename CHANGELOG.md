@@ -4,7 +4,6 @@
 
 Initial public release.
 
-- Added Yfarch BIM Pro Tools 2019 installer package.
+- Added Yfarch BIM Pro Tools for Revit 2019 installer package.
 - Added public download and installation instructions.
 - Added Revit 2019 support notes.
-
