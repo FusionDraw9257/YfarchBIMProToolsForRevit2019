@@ -48,6 +48,12 @@ English:
 
 ## 功能介紹 Features
 
+### 自動樓層 Auto Levels
+
+提供 Revit 樓層表格化編輯工具，可讀取既有 Level，調整樓層名稱、樓高與標高，並支援新增地上層、地下層與刪除樓層。套用後會一次寫回 Revit，並同步調整 Grid 的垂直 3D 範圍。
+
+Provides a table-based Revit Level editor. It can read existing levels, edit level names, floor heights, and elevations, add above-ground or basement levels, mark levels for deletion, and apply changes back to Revit in one transaction.
+
 ### 自動軸網 Auto Grids
 
 協助快速建立或整理 Revit 軸網，減少手動建立軸線、檢查軸號與調整定位基準的時間。適合在專案初期建立建築或結構模型基準時使用。
@@ -65,6 +71,12 @@ Assists with generating structural columns from drawing or model conditions, red
 協助產生結構梁，並輔助檢查梁與柱之間的距離、位置與端點關係。適合結構建模、初步配置與模型整理階段。
 
 Assists with structural beam generation and supports checks around beam-column distance, placement, and endpoint relationships.
+
+### 自動建築牆 Auto Architecture Walls
+
+協助從 CAD 牆線與圖層資訊產生 Revit 建築牆，並可依牆型、完成面與開口相關圖層進行牆體判讀與建立。適合將建築平面 CAD 牆線快速轉換為 Revit 牆模型。
+
+Assists with generating Revit architecture walls from CAD wall lines and layer information, including wall type, finish wall, and opening-related interpretation workflows.
 
 ### 自動結構板 Auto Structural Slabs
 
@@ -89,6 +101,12 @@ Assists with joining and organizing geometry around floor or level boundaries to
 提供柱、梁接合狀態切換與整理輔助，讓使用者更快處理構件交接時的顯示與幾何關係。
 
 Provides helper commands for switching and organizing column-beam join states, making it easier to manage element intersections.
+
+### 自動梁牆剪切 Auto Cut Beam-Wall
+
+協助處理結構梁與牆體之間的剪切、交會與接合關係，降低手動逐一檢查梁牆交接位置的時間。適合在梁牆關係較多的樓層模型中進行批次整理。
+
+Assists with beam-wall cutting, intersection, and joining workflows, reducing manual checking and cleanup time around beam-wall conditions in Revit models.
 
 ### 車位自動編號 Parking Space Numbering
 
